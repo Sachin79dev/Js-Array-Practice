@@ -122,3 +122,16 @@ let char = ["sachin", "singh", "frontend", "Develoepr"]
 
 console.log(char.join(" ").toUpperCase()); // SACHIN SINGH FRONTEND DEVELOEPR
 
+
+
+// merging two arrays using spread operator
+
+
+let one = [4, 5, 3, 1, 2]
+let two = [7, 9, 8, 6]
+
+
+let merge = [...one, ...two]
+
+console.log(merge.sort()); // (9) [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
