@@ -172,3 +172,18 @@ let sqrt = int.map((n) => {
 
 
 console.log(sqrt); // (5) [4, 9, 16, 25, 36]
+
+
+
+
+// filter function to find even numbers
+
+let sin = [1, 2, 3, 4, 5, 6, 7]
+
+let even = sin.filter(function (n) {
+    if (n%2 == 0) {
+        return n
+    }
+})
+
+console.log(even); // (3) [2, 4, 6]
