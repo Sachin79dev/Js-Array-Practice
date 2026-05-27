@@ -86,3 +86,14 @@ console.log(rem);
 rem.splice(2, 0, 8, 9, 10)
 
 console.log(rem);
+
+
+// Using slice method in array
+
+
+let sel = rem.slice(0, rem.length)
+
+console.log(sel); //(6) [1, 2, 8, 9, 10, 7]
+
+console.log(rem.indexOf(10)); // 4
+
