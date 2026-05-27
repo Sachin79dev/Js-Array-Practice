@@ -97,3 +97,16 @@ console.log(sel); //(6) [1, 2, 8, 9, 10, 7]
 
 console.log(rem.indexOf(10)); // 4
 
+
+
+
+
+// checking wether array contains a value
+
+
+if (sel.includes(8)) {
+    console.log(`it has`);
+}else {
+    console.log(`it does not have`);
+}
+
