@@ -70,3 +70,19 @@ let dsc = [4, 9, 3, 8, 4, 2, 5, 0, 6,]
 
 
 console.log(dsc.sort().reverse()); // (9) [9, 8, 6, 5, 4, 4, 3, 2, 0]
+
+
+
+
+// Using splice method in array
+
+let rem = [1, 2, 3, 4, 5, 6, 7]
+
+rem.splice(2, 4)
+
+console.log(rem);
+
+
+rem.splice(2, 0, 8, 9, 10)
+
+console.log(rem);
