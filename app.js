@@ -138,3 +138,26 @@ console.log(merge.sort()); // (9) [1, 2, 3, 4, 5, 6, 7, 8, 9]
 // finding maximum value from an arary using Math.max method
 console.log(Math.max(...merge)); // 9
 
+
+
+// forEach function to double an array element
+
+let dbl = [2, 3, 5]
+
+
+let dbl2 = dbl.forEach((n) => {
+    console.log(n*2);
+})
+
+
+// forEach function to double an array element
+
+let dbl = [2, 3, 5]
+
+
+let dbl2 = dbl.forEach((n) => {
+    console.log(n*2); // 4, 6, 10
+})
+
+
+
