@@ -110,3 +110,15 @@ if (sel.includes(8)) {
     console.log(`it does not have`);
 }
 
+
+
+
+// using join method to join array using space
+
+let char = ["sachin", "singh", "frontend", "Develoepr"]
+
+
+// char.join(" ")
+
+console.log(char.join(" ").toUpperCase()); // SACHIN SINGH FRONTEND DEVELOEPR
+
