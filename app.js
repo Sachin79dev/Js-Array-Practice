@@ -135,3 +135,6 @@ let merge = [...one, ...two]
 
 console.log(merge.sort()); // (9) [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+// finding maximum value from an arary using Math.max method
+console.log(Math.max(...merge)); // 9
+
