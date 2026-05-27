@@ -161,3 +161,14 @@ let dbl2 = dbl.forEach((n) => {
 
 
 
+// map function for squaring the numbers of an array
+
+let int = [2, 3, 4, 5, 6]
+
+
+let sqrt = int.map((n) => {
+    return n*n
+})
+
+
+console.log(sqrt); // (5) [4, 9, 16, 25, 36]
