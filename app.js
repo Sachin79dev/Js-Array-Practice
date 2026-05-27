@@ -39,3 +39,34 @@ console.log(arr);// (6) ['kiwi', 'apple', 'banana', 'grapes', 'melons', 'mango'
 arr.shift("kiwi")
 
 console.log(arr); // (5) ['apple', 'banana', 'grapes', 'melons', 'mango']
+
+
+
+// reversing array using reverse method 
+
+
+let arr2 = arr.reverse()
+
+
+console.log(arr2); // (5) ['mango', 'melons', 'grapes', 'banana', 'apple']
+
+
+
+
+// sorting array in ascending order
+
+
+let asc = [4, 9, 3, 8, 4, 2, 5, 0, 6,]
+
+
+console.log(asc.sort()); // (9) [0, 2, 3, 4, 4, 5, 6, 8, 9]
+
+
+
+// sorting array in descending order
+
+
+let dsc = [4, 9, 3, 8, 4, 2, 5, 0, 6,]
+
+
+console.log(dsc.sort().reverse()); // (9) [9, 8, 6, 5, 4, 4, 3, 2, 0]
