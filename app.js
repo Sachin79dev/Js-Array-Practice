@@ -235,3 +235,18 @@ let firstIndex = nums.findIndex((n) => {
 
 
 console.log(firstIndex); // 6
+
+
+
+// some function to get if the number on an array is negative 
+
+
+let negative = [-2, -1, 0, 1, 2]
+
+
+let ifneg = negative.some((n) => {
+    return n < 0
+})
+
+
+console.log(ifneg);
