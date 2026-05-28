@@ -203,7 +203,7 @@ console.log(sums); // 55
 
 
 
-// reduce function to find the boggest from an array of numbers
+// reduce function to find the largest from an array of numbers
 let big = nums.reduce((acc, idx) => {
     return idx > acc ? idx : acc
 })
