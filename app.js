@@ -210,3 +210,16 @@ let big = nums.reduce((acc, idx) => {
 
 
 console.log(big);
+
+
+
+
+
+// find function to get the first even number from an array of numbers
+
+let firstEven = nums.find((n) => {
+    return n%2 === 0;
+})
+
+
+console.log(firstEven);
