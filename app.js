@@ -313,3 +313,20 @@ const avg = sumd / avgnums.length
 
 
 console.log(avg.toFixed(1));
+
+
+
+
+// chaining Filter and Map method
+const users = [
+  { username: "sachin", score: 45 },
+  { username: "priyanka", score: 95 },
+  { username: "vijay", score: 88 },
+  { username: "santosh", score: 60 }
+];
+
+const result = users
+  .filter((user) => user.score < 80)
+  .map((user) => user.username.toUpperCase());
+
+console.log(result);
