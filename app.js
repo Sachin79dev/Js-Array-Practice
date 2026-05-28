@@ -222,4 +222,16 @@ let firstEven = nums.find((n) => {
 })
 
 
-console.log(firstEven);
+console.log(firstEven); //2 
+
+
+
+// find function to get the first largest number from an array of numbers
+
+
+let firstIndex = nums.findIndex((n) => {
+    return n > 5
+})
+
+
+console.log(firstIndex); // 6
