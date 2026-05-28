@@ -200,3 +200,13 @@ let sums = nums.reduce((acc, idx) => {
 }, 0)
 
 console.log(sums); // 55
+
+
+
+// reduce function to find the boggest from an array of numbers
+let big = nums.reduce((acc, idx) => {
+    return idx > acc ? idx : acc
+})
+
+
+console.log(big);
