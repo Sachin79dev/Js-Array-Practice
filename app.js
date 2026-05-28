@@ -250,3 +250,16 @@ let ifneg = negative.some((n) => {
 
 
 console.log(ifneg);
+
+
+
+// Every function to get if numbers are negative or not 
+
+
+let ifneg1 = negative.every((n) => {
+    return n < 0
+})
+
+
+console.log(ifneg1); // false
+
