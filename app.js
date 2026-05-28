@@ -263,3 +263,14 @@ let ifneg1 = negative.every((n) => {
 
 console.log(ifneg1); // false
 
+
+// array of names and converting all to uppercase
+
+let namesArr = ["sachin", "priyanka", "vijay", "santosh", "priyam"]
+
+let capNames = namesArr.map((n) => {
+    return n.toUpperCase()
+})
+
+
+console.log(capNames); // (5) ['SACHIN', 'PRIYANKA', 'VIJAY', 'SANTOSH', 'PRIYAM']
