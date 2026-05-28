@@ -295,3 +295,21 @@ let marksObt = students.filter((n) => {
 
 console.log(marksObt);
 console.log(students);
+
+
+
+
+// Calculating average using reduce
+
+
+const avgnums = [10, 99, 88, 33, 29, 54, 33]
+
+
+const sumd = avgnums.reduce((acc, idx) => {
+    return acc+idx
+}, 0)
+
+const avg = sumd / avgnums.length
+
+
+console.log(avg.toFixed(1));
