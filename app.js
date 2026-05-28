@@ -187,3 +187,16 @@ let even = sin.filter(function (n) {
 })
 
 console.log(even); // (3) [2, 4, 6]
+
+
+
+
+// reduce function to sum the given array 
+
+let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+let sums = nums.reduce((acc, idx) => {
+    return acc + idx
+}, 0)
+
+console.log(sums); // 55
