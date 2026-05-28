@@ -274,3 +274,24 @@ let capNames = namesArr.map((n) => {
 
 
 console.log(capNames); // (5) ['SACHIN', 'PRIYANKA', 'VIJAY', 'SANTOSH', 'PRIYAM']
+
+
+
+// filtering students marks > 80 
+
+const students = [
+  { name: "Sachin", marks: 75 },
+  { name: "Priyanka", marks: 92 },
+  { name: "Vijay", marks: 81 },
+  { name: "Santosh", marks: 68 }
+];
+
+
+
+let marksObt = students.filter((n) => {
+    return n.marks > 80 
+})
+
+
+console.log(marksObt);
+console.log(students);
